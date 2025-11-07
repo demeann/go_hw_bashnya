@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	s := stack.New
+	s := stack.New[int]()
 
 	fmt.Println("Пуст ли стек:", s.IsEmpty())
 	fmt.Println("Текущий размер стека:", s.Size())
